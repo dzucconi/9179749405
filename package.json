@@ -10,10 +10,11 @@
   "scripts": {
     "test": "mocha test",
     "start": "brunch watch --server",
-    "prod": "brunch build --production"
+    "prod": "brunch build --production",
+    "deploy": "npm run prod && s3-cli --delete-removed --acl-public --config .s3config sync public/ s3://www.9179749405.com/"
   },
   "dependencies": {
-    "libphonenumber-node": "0.0.3",
+    "libphonenumber-node": "0.0.3"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
@@ -25,6 +26,7 @@
     "css-brunch": "^2.0.0",
     "javascript-brunch": "^2.0.0",
     "mocha": "^3.0.2",
+    "s3-cli": "^0.13.0",
     "should": "^11.1.0",
     "uglify-js-brunch": "^2.0.0"
   }
