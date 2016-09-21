@@ -26,3 +26,4 @@ window.render = () =>
   document.body.innerHTML = formatted(equation());
 
 render();
+document.title = decimal(number(digits));
