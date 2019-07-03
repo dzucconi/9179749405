@@ -30,6 +30,7 @@ hr {
   line-height: 1.25;
   text-decoration: none;
   cursor: pointer;
+  user-select: none;
 }
 
 .line {
