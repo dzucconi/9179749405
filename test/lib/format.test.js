@@ -1,4 +1,4 @@
-import { phone } from "../../app/lib/format";
+import { phone } from "../../src/javascripts/lib/format";
 
 describe("format", () => {
   describe("phone", () => {
