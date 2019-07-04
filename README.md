@@ -13,6 +13,7 @@
 
 ## Parameters
 
-| Param     | Description | Type      |
-| --------- | ----------- | --------- |
-| `example` | An example  | `boolean` |
+| Param     | Description  | Type     |
+| --------- | ------------ | -------- |
+| `digits`  | Phone number | `number` |
+| `country` | Country code | `string` |
