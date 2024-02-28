@@ -19,6 +19,6 @@
     "@babel/core": "7.9.6",
     "@babel/preset-env": "7.9.6",
     "jest": "24.9.0",
-    "parcel": "1.12.4"
+    "parcel": "2.12.0"
   }
 }
